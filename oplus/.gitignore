@@ -1,0 +1,13 @@
+# Artefakty budowania modulow zewnetrznych (make M=...).
+# Buduja sie w miejscu, obok zrodel - inaczej niz reszta drzewa, ktora idzie do out/.
+*.o
+*.ko
+*.mod
+*.mod.c
+*.mod.o
+*.cmd
+.*.cmd
+*.symvers
+Module.symvers
+modules.order
+.tmp_versions/
